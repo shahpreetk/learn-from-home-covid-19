@@ -4,7 +4,7 @@ body {
   width: auto;
 }
 
-/* nav-bar */
+/*************************** navbar ***************************/
 .navbar {
   width: 100%;
   background: #fdfdfd;
@@ -18,4 +18,18 @@ body {
 .image-header {
   width: 45px;
   height: 45px;
+}
+
+
+
+/*************************** description about-us ***************************/
+
+.container{
+    margin-top: 20px;
+    background: whitesmoke;
+    border-radius: 25px;
+}
+
+.description-paragraph{
+    padding: 25px;
 }
