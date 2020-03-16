@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#cards{
+    display: flex;
+}
+
+.card{
+    /* display: block; */
+    flex: 1;
+}
