@@ -27,12 +27,6 @@
     padding-top: 0px;
 }
 
-.btn-primary {
-    background: #09203F;
-    border-radius: 30px;
-    opacity: 75%;
-}
-
 .dot {
     height: 10px;
     width: 10px;
@@ -56,4 +50,17 @@
 
 .notcovid {
     background-color: #0062D4;
+}
+
+.btn-primary {
+    background: #09203F;
+    border-radius: 30px;
+    opacity: 75%;
+    margin-top: 20px;
+}
+
+.btn-covid{
+    background: rgb(13, 167, 138);
+    opacity: 100%;
+    margin-left: 330px;
 }
