@@ -12,5 +12,23 @@
     flex: 1;
     margin: 30px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
+    /* height: 230px; */
+}
+
+.card-header{
+    background-color: #fff;
+    color: #6D6D6D;
+    border: none;
+    line-height: 30px;
+}
+
+.card-body{
+    padding-top: 0px;
+}
+
+.btn-primary{
+    background: #09203F;
+    border-radius: 30px;
+    opacity: 75%;
 }
