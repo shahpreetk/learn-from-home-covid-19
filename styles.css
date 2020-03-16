@@ -8,7 +8,9 @@ body {
 .navbar {
   width: 100%;
   background: #fdfdfd;
-  box-shadow: 0px 4px 2px rgba(70, 68, 68, 0.6);
+  -webkit-box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
 .navbar-brand {
@@ -20,16 +22,30 @@ body {
   height: 45px;
 }
 
-
-
 /*************************** description about-us ***************************/
 
-.container{
-    margin-top: 20px;
-    background: whitesmoke;
-    border-radius: 25px;
+.container {
+  margin-top: 20px;
+  background: whitesmoke;
+  -webkit-box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 6px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
 }
 
-.description-paragraph{
-    padding: 25px;
+.description-paragraph {
+  padding: 25px;
+}
+
+.social-logos {
+  text-decoration: none;
+  margin: 25px;
+}
+
+.github-logo,
+.instagram-logo,
+.youtube-logo {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
 }
