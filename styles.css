@@ -114,4 +114,13 @@ body {
   #cards{
     display: block;
   }
+  .btn-covid{
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .btn-covid{
+    float: none;
+  }
 }
