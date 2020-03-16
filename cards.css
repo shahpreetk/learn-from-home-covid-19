@@ -4,11 +4,11 @@
     padding: 0;
 }
 
-#cards{
+#cards {
     display: flex;
 }
 
-.card{
+.card {
     flex: 1;
     margin: 30px;
     padding: 10px;
@@ -16,19 +16,51 @@
     /* height: 230px; */
 }
 
-.card-header{
+.card-header {
     background-color: #fff;
     color: #6D6D6D;
     border: none;
     line-height: 30px;
 }
 
-.card-body{
+.card-body {
     padding-top: 0px;
 }
 
-.btn-primary{
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 510px;
+}
+
+.covid {
+    background-color: #FFA115;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 510px;
+}
+
+.notcovid {
+    background-color: #0062D4;
+}
+
+.btn-primary {
     background: #09203F;
     border-radius: 30px;
     opacity: 75%;
+    margin-top: 20px;
+}
+
+.btn-covid{
+    background: rgb(13, 167, 138);
+    opacity: 100%;
+    margin-left: 330px;
 }
