@@ -32,20 +32,11 @@
     width: 10px;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 510px;
+    float: right;
 }
 
 .covid {
     background-color: #FFA115;
-}
-
-.dot {
-    height: 10px;
-    width: 10px;
-
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 510px;
 }
 
 .notcovid {
@@ -62,5 +53,5 @@
 .btn-covid{
     background: rgb(13, 167, 138);
     opacity: 100%;
-    margin-left: 330px;
+    float: right;
 }
