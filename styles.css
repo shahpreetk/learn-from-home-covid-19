@@ -109,3 +109,9 @@ body {
   opacity: 100%;
   float: right;
 }
+
+@media only screen and (max-width: 768px) {
+  #cards{
+    display: block;
+  }
+}
