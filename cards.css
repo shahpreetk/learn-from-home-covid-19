@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,8 @@
 }
 
 .card{
-    /* display: block; */
     flex: 1;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
 }
