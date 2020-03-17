@@ -56,6 +56,10 @@ body {
   height: 30px;
 }
 
+.google-custom-search{
+  margin: 25px;
+}
+
 /*************************** Cards ***************************/
 
 #cards {
