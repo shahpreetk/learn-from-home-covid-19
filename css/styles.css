@@ -83,6 +83,7 @@ body {
 
 .card-title{
   font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 
 .card-body {
