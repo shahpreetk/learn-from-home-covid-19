@@ -56,13 +56,13 @@ body {
   height: 30px;
 }
 
-.google-custom-search{
+.google-custom-search {
   margin: 25px;
 }
 
-.radio-buttons{
+.radio-buttons {
   text-align: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   padding: 20px;
 }
@@ -83,13 +83,13 @@ body {
 
 .card-header {
   background-color: #fff;
-  color: #6D6D6D;
+  color: #6d6d6d;
   border: none;
   line-height: 30px;
 }
 
-.card-title{
-  font-family: 'Poppins', sans-serif;
+.card-title {
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
 }
 
@@ -105,38 +105,38 @@ body {
 }
 
 .covid {
-  background-color: #FFA115;
+  background-color: #ffa115;
 }
 
 .notcovid {
-  background-color: #0062D4;
+  background-color: #0062d4;
 }
 
 .btn-primary {
-  background: #09203F;
+  background: #09203f;
   border-radius: 30px;
   opacity: 75%;
   margin-top: 20px;
   border: none;
 }
 
-.btn-covid{
+.btn-covid {
   background: rgb(13, 167, 138);
   opacity: 100%;
   float: right;
 }
 
 @media only screen and (max-width: 768px) {
-  #cards{
+  #cards {
     display: block;
   }
-  .btn-covid{
+  .btn-covid {
     float: right;
   }
 }
 
 @media only screen and (max-width: 390px) {
-  .btn-covid{
+  .btn-covid {
     float: none;
   }
 }
